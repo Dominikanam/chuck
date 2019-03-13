@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://wallpaperplay.com/walls/full/8/1/8/231473.jpg);
+}
+
+button {
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+	background-color: rgba(0, 56, 59, 0.7);
+	color: white;
+	font-weight: 800;
+	font-size: 20px;
+	border: 1px solid grey;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+button:hover {
+	border: 3px solid rgba(0, 248, 75, 0.7);
+}
+
+#joke {
+	color: white;
+	font-weight: 800;
+	font-size: 20px;
+	text-align: center;
+}
